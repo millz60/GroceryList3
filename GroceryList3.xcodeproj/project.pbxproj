@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C922AD071D332BA100FB950C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C922AD061D332BA100FB950C /* main.m */; };
+		C922AD0A1D332BA100FB950C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C922AD091D332BA100FB950C /* AppDelegate.m */; };
+		C922AD101D332BA100FB950C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C922AD0E1D332BA100FB950C /* Main.storyboard */; };
+		C922AD121D332BA100FB950C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C922AD111D332BA100FB950C /* Assets.xcassets */; };
+		C922AD151D332BA100FB950C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C922AD131D332BA100FB950C /* LaunchScreen.storyboard */; };
+		C922AD211D332CF000FB950C /* GroceryList.m in Sources */ = {isa = PBXBuildFile; fileRef = C922AD201D332CF000FB950C /* GroceryList.m */; };
+		C922AD241D332D6E00FB950C /* GroceryCategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C922AD231D332D6E00FB950C /* GroceryCategoriesTableViewController.m */; };
+		C922AD271D332EB900FB950C /* AddCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C922AD261D332EB900FB950C /* AddCategoryViewController.m */; };
+		C9ACB5C01D36E94C0025BBA8 /* ItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACB5BF1D36E94C0025BBA8 /* ItemListTableViewController.m */; };
+		C9ACB5C31D36EE150025BBA8 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACB5C21D36EE150025BBA8 /* AddItemViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C922AD021D332BA100FB950C /* GroceryList3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C922AD061D332BA100FB950C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C922AD081D332BA100FB950C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C922AD091D332BA100FB950C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C922AD0F1D332BA100FB950C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C922AD111D332BA100FB950C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C922AD141D332BA100FB950C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C922AD161D332BA100FB950C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C922AD1F1D332CF000FB950C /* GroceryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryList.h; sourceTree = "<group>"; };
+		C922AD201D332CF000FB950C /* GroceryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryList.m; sourceTree = "<group>"; };
+		C922AD221D332D6E00FB950C /* GroceryCategoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryCategoriesTableViewController.h; sourceTree = "<group>"; };
+		C922AD231D332D6E00FB950C /* GroceryCategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryCategoriesTableViewController.m; sourceTree = "<group>"; };
+		C922AD251D332EB900FB950C /* AddCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryViewController.h; sourceTree = "<group>"; };
+		C922AD261D332EB900FB950C /* AddCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryViewController.m; sourceTree = "<group>"; };
+		C9ACB5BE1D36E94C0025BBA8 /* ItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListTableViewController.h; sourceTree = "<group>"; };
+		C9ACB5BF1D36E94C0025BBA8 /* ItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListTableViewController.m; sourceTree = "<group>"; };
+		C9ACB5C11D36EE150025BBA8 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		C9ACB5C21D36EE150025BBA8 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C922ACFF1D332BA100FB950C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C922ACF91D332BA100FB950C = {
+			isa = PBXGroup;
+			children = (
+				C922AD041D332BA100FB950C /* GroceryList3 */,
+				C922AD031D332BA100FB950C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C922AD031D332BA100FB950C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C922AD021D332BA100FB950C /* GroceryList3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C922AD041D332BA100FB950C /* GroceryList3 */ = {
+			isa = PBXGroup;
+			children = (
+				C9ACB5BA1D36E8B00025BBA8 /* List View Controllers */,
+				C922AD051D332BA100FB950C /* Supporting Files */,
+				C922AD1F1D332CF000FB950C /* GroceryList.h */,
+				C922AD201D332CF000FB950C /* GroceryList.m */,
+				C922AD0E1D332BA100FB950C /* Main.storyboard */,
+				C9ACB5BE1D36E94C0025BBA8 /* ItemListTableViewController.h */,
+				C9ACB5BF1D36E94C0025BBA8 /* ItemListTableViewController.m */,
+			);
+			path = GroceryList3;
+			sourceTree = "<group>";
+		};
+		C922AD051D332BA100FB950C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C922AD131D332BA100FB950C /* LaunchScreen.storyboard */,
+				C922AD161D332BA100FB950C /* Info.plist */,
+				C922AD111D332BA100FB950C /* Assets.xcassets */,
+				C922AD081D332BA100FB950C /* AppDelegate.h */,
+				C922AD091D332BA100FB950C /* AppDelegate.m */,
+				C922AD061D332BA100FB950C /* main.m */,
+				C9ACB5C11D36EE150025BBA8 /* AddItemViewController.h */,
+				C9ACB5C21D36EE150025BBA8 /* AddItemViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9ACB5BA1D36E8B00025BBA8 /* List View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C922AD251D332EB900FB950C /* AddCategoryViewController.h */,
+				C922AD261D332EB900FB950C /* AddCategoryViewController.m */,
+				C922AD221D332D6E00FB950C /* GroceryCategoriesTableViewController.h */,
+				C922AD231D332D6E00FB950C /* GroceryCategoriesTableViewController.m */,
+			);
+			name = "List View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C922AD011D332BA100FB950C /* GroceryList3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C922AD191D332BA100FB950C /* Build configuration list for PBXNativeTarget "GroceryList3" */;
+			buildPhases = (
+				C922ACFE1D332BA100FB950C /* Sources */,
+				C922ACFF1D332BA100FB950C /* Frameworks */,
+				C922AD001D332BA100FB950C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryList3;
+			productName = GroceryList3;
+			productReference = C922AD021D332BA100FB950C /* GroceryList3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C922ACFA1D332BA100FB950C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matt Milner";
+				TargetAttributes = {
+					C922AD011D332BA100FB950C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C922ACFD1D332BA100FB950C /* Build configuration list for PBXProject "GroceryList3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C922ACF91D332BA100FB950C;
+			productRefGroup = C922AD031D332BA100FB950C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C922AD011D332BA100FB950C /* GroceryList3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C922AD001D332BA100FB950C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C922AD151D332BA100FB950C /* LaunchScreen.storyboard in Resources */,
+				C922AD121D332BA100FB950C /* Assets.xcassets in Resources */,
+				C922AD101D332BA100FB950C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C922ACFE1D332BA100FB950C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ACB5C01D36E94C0025BBA8 /* ItemListTableViewController.m in Sources */,
+				C922AD0A1D332BA100FB950C /* AppDelegate.m in Sources */,
+				C9ACB5C31D36EE150025BBA8 /* AddItemViewController.m in Sources */,
+				C922AD241D332D6E00FB950C /* GroceryCategoriesTableViewController.m in Sources */,
+				C922AD071D332BA100FB950C /* main.m in Sources */,
+				C922AD271D332EB900FB950C /* AddCategoryViewController.m in Sources */,
+				C922AD211D332CF000FB950C /* GroceryList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C922AD0E1D332BA100FB950C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C922AD0F1D332BA100FB950C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C922AD131D332BA100FB950C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C922AD141D332BA100FB950C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C922AD171D332BA100FB950C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C922AD181D332BA100FB950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C922AD1A1D332BA100FB950C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroceryList3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.GroceryList3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C922AD1B1D332BA100FB950C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroceryList3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.GroceryList3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C922ACFD1D332BA100FB950C /* Build configuration list for PBXProject "GroceryList3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C922AD171D332BA100FB950C /* Debug */,
+				C922AD181D332BA100FB950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C922AD191D332BA100FB950C /* Build configuration list for PBXNativeTarget "GroceryList3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C922AD1A1D332BA100FB950C /* Debug */,
+				C922AD1B1D332BA100FB950C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C922ACFA1D332BA100FB950C /* Project object */;
+}
