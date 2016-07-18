@@ -17,20 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _groceryList = [[GroceryList alloc] init];
     _groceryList.listItems = [[NSMutableArray alloc] init];
     
-//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-//    NSData *listData = [defaults objectForKey:_groceryList.title];
+    NSString *titleString = (NSString *) _groceryList.title;
     
-//    if(listData == nil) {
-//        
-//        _groceryList.listItems = [NSMutableArray array];
-//    }
-//    else {
-//        
-//        _groceryList.listItems = (NSMutableArray *) [NSKeyedUnarchiver unarchiveObjectWithData:listData];
-//    }
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSMutableArray *listData = [defaults objectForKey:titleString];
+    
+    if([listData count] < 1) {
+        
+        _groceryList.listItems = [NSMutableArray array];
+    }
+    else {
+        
+        _groceryList.listItems = [listData mutableCopy];
+    }
     
     
     
@@ -64,7 +65,7 @@
     NSString *currentItem = _groceryList.listItems[indexPath.row];
 
     cell.textLabel.text = currentItem;
-    
+    cell.textLabel.font = [UIFont fontWithName:@"System" size:10.0];
     return cell;
 }
 
@@ -75,14 +76,14 @@
     
     [_groceryList.listItems addObject:itemName];
     
-//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-//    //    NSData *categories = [defaults objectForKey:@"GroceryCategories"];
-//    //    NSMutableArray *catArray = (NSMutableArray *)[NSKeyedUnarchiver unarchiveObjectWithData:categories];
-//    //    catArray = [catArray mutableCopy];
-//    //    [catArray addObject:list];
-//    
-//    [defaults setObject:_groceryList.listItems forKey:_groceryList.title];
-//    [defaults synchronize];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    //    NSData *categories = [defaults objectForKey:@"GroceryCategories"];
+    //    NSMutableArray *catArray = (NSMutableArray *)[NSKeyedUnarchiver unarchiveObjectWithData:categories];
+    //    catArray = [catArray mutableCopy];
+    //    [catArray addObject:list];
+    
+    [defaults setObject:_groceryList.listItems forKey:_groceryList.title];
+    [defaults synchronize];
     
     [self.tableView reloadData];
     
